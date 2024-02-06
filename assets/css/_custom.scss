@@ -62,3 +62,14 @@ progress::-moz-progress-bar {
     height:inherit;
     z-index:10
 }
+
+/* Mouse Trail */
+.anime-container {
+    position: relative;
+}
+
+.anime-container .dot {
+    position: absolute;
+    border-radius: 50%;
+    background-color:hsl(264, 100%, 58%);
+}
