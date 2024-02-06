@@ -1,0 +1,14 @@
+.DS_Store
+.vscode
+.idea
+.hugo_build.lock
+.frontmatter
+
+# Directory
+public/
+
+# Shell
+*.sh
+
+# Other
+frontmatter.json

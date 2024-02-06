@@ -1,0 +1,32 @@
+footer {
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  line-height: 1.25rem;
+  padding: 1rem 0;
+
+  .footer-container {
+    font-size: .875rem;
+
+    .footer-line {
+      width: 100%;
+
+      i.fa.fa-heart {
+        color: #e74c3c;
+        margin: 0 3px;
+      }
+
+      .icp-br {
+        display: none;
+      }
+
+      &:hover {
+        i.fa.fa-heart {
+          animation: heart 1.25s linear infinite
+        }
+      }
+    }
+  }
+
+  @include blur;
+}
