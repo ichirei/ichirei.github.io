@@ -81,3 +81,4 @@ libFiles:
   vssueGithubJS: vssue@1.4.8/dist/vssue.github.min.js
   vssueGitlabJS: vssue@1.4.8/dist/vssue.gitlab.min.js
   vssueCSS: vssue@1.4.8/dist/vssue.min.css
+  jQuery: jquery@3.6.4/dist/jquery.min.js

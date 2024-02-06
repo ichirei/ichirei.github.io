@@ -200,6 +200,13 @@
 {{- $source := $cdn.topbarJS | default "lib/topbar/topbar.min.js" -}}
 {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 
+{{- /* jQuery */ -}}
+{{- $source := $cdn.jQuery -}}
+{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+
+{{- /* Ichirei */ -}}
+{{- dict "Source" "js/ichirei.min.js" | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+
 {{- /* pjax */ -}}
 {{- $source := $cdn.pjaxJS | default "lib/pjax/pjax.min.js" -}}
 {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
